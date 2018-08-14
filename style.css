@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+}
+#title
+{
+    color: brown;
+    text-align:center;
+}
+#ctr1,#ctr2
+{
+    color:black;
+    text-align:center;
+}
+/* Create two columns/boxes that floats next to each other */
+#cartdiv {
+    float:left; 
+    background-color:cadetblue;
+     width:500px; 
+     height:500px; 
+     margin-top: 30px; 
+     margin-left: 50px
+}
+#shipdiv
+{
+    float:right; 
+    background-color:lightcoral;
+     width:500px; 
+     height:500px; 
+     margin-top: 30px; 
+     margin-right: 200px;
+}
+#btn
+{
+   
+    margin-top: 20px;
+     margin-right: 20px;
+}
+#cart
+{
+    color:purple;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color:darkblue;
+}
+
